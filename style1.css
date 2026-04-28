@@ -1,0 +1,33 @@
+
+h1{text-align: center;margin-top: 50px
+border: 3px solid #ff69b4;      
+    border-radius: 20px;         
+    padding: 5px;               
+    background-color: #ffe4e1;    
+    font-family:, cursive;
+    font-size: 60px;       
+    color: #d63384;
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto;}
+.gallery{display:flex; gap:10px;justify-content: center; }
+
+.gallery-photo{height:200px;width:auto;transition:0.3s;}
+
+.gallery-photo:hover{transform:scale(1.1);cursor:pointer;}
+
+body { background-color: lightblue; }
+
+.main{display:flex; flex-direction:row;
+gap:20px;}
+
+.text{width:70%;margin-right;20px;}
+	
+.image-column {display: grid;margin-top:40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; flex-shrink: 1;
+	width:40%;}
+
+.row-photo {height: 100px;
+    width: 100%;max-width:150px; object-fit:cover; 
+    border-radius: 10px;}
